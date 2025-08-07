@@ -1,0 +1,4 @@
+public class AppFeature {
+    public static let greeting = "Hello modular"
+    public init() {}
+}

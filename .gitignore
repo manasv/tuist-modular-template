@@ -1,0 +1,43 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User-specific
+.DS_Store
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.app
+*.dSYM/
+
+## Various
+*.moved-p
+*.xcodeproj.bak
+*.xcodeproj/project.xcworkspace
+*.xcworkspace
+Carthage/Build/
+Carthage/Checkouts/
+Pods/
+Rome/
+.swiftpm/
+
+# Tuist
+.tuist-version
+graph.dot
+graph.png
+Project.swift-e
+Tuist/Dependencies/Lockfiles/
+Tuist/Dependencies/SwiftPackageManager/
+Tuist/Dependencies/Carthage/
+Tuist/Dependencies/graph.json

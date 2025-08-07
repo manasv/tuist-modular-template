@@ -1,0 +1,11 @@
+import ProjectDescription
+
+let workspace = Workspace(
+    name: "{{ name }}",
+    projects: [
+        "{{ name }}"
+    ],
+    additionalFiles: [
+        .folderReference(path: "Modules")
+    ]
+)

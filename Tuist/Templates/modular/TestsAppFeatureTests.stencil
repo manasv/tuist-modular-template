@@ -1,0 +1,10 @@
+import Testing
+import AppFeature
+
+@Suite
+struct AppFeatureTests {
+    @Test
+    func testGreeting() {
+        #expect(AppFeature.greeting == "Hello modular")
+    }
+}
